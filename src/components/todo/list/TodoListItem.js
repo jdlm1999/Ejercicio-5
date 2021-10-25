@@ -7,7 +7,6 @@ export const TodoListItem = ({ todo, index, delTodo, togl }) => {
 				onClick={(e) => {
 					e.preventDefault();
 					togl(todo);
-          console.log('click');
 				}}
 				style={{ textDecoration: todo.done === true ? 'line-through' : "None" }}
 			>
