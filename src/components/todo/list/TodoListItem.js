@@ -9,7 +9,7 @@ export const TodoListItem = ({ todo, index, delTodo, togl }) => {
 					togl(todo);
           console.log('click');
 				}}
-				style={{ textDecoration: todo.done === true ? 'line-through' : null }}
+				style={{ textDecoration: todo.done === true ? 'line-through' : "None" }}
 			>
 				{index + 1}. {todo.desc}
 			</p>
